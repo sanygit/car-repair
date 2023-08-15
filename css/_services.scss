@@ -1,0 +1,150 @@
+
+.custom-padding{
+    padding-top: 50px;
+    padding-bottom: 85px;
+     h5{
+         font-size: 1.4rem;
+         font-weight: 700;
+         color: #0B2154;
+     }
+ 
+     p{
+         font-size: 1.1rem;
+         color:#595277;
+         font-weight: 500;
+         font-family: 'Ubuntu', sans-serif;
+     }
+ 
+     .service-padding{
+         padding: 50px 15px;
+     }
+ 
+     .bg-color{
+         background-color:#F2F2F2;
+     }
+ 
+     a{
+         font-size: 1.1rem;
+         color: #4e4c58;
+         text-decoration: underline;
+         font-family: 'Ubuntu', sans-serif;
+     }
+ 
+     .icons{
+         i{
+             color: red;
+             font-size: 50px;
+             margin-top: 10px;
+         }
+     }
+ }
+
+ 
+.padding-bottom-min{
+    padding-bottom: 30px;
+
+    h4{
+        color: #D81324;
+        font-weight: 700;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+}
+
+.service-padding-bottom{
+    padding-bottom: 85px;
+
+    .bg-color-red{
+        background-color: #D81324;
+        color: white;
+        padding: 25px;
+        line-height: 1.2px;
+        cursor: pointer;
+
+        h4{
+            margin-top: 0px;
+            font-weight: 700;
+            font-size: 25px;
+        }
+    }
+
+    .bg-color-grey{
+        background-color: #F2F2F2;
+        padding: 25px;
+        line-height: 1.2px;
+        margin-bottom: 27.5px;
+        margin-top: 27.5px;
+        cursor: pointer;
+
+
+        h4{
+            margin-top: 0px;
+            font-weight: 700;
+            font-size: 25px;
+        }
+    }
+
+
+    .bg-color-grey .fa{
+        color: #D81324;
+    }
+
+    .hover-img{
+        
+      transition: 1s;
+    }
+
+    .hover-img:hover{
+        
+        transform: scale(1.02);
+    }
+
+    .auto-servicing{
+        h3{
+            font-size: 26px;
+            font-weight: 700;
+            margin-top: 0px;
+        }
+
+        p{
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+
+    .quality-text{
+        .fa{
+            font-size: 20px;
+            color: #198754
+        }
+
+        span{
+            font-size: 17px;
+            font-weight: 500;
+            font-family: 'Barlow', sans-serif;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        padding: 20px 50px;
+        background-color: #D81324;
+        position: relative;
+        top: 43px;
+        color: white;
+        transition: 5s;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: 1s;
+
+    }
+
+    a:hover{
+        opacity: 0.8;
+        background-color: #D81310;
+    }
+
+}

@@ -1,0 +1,46 @@
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#sticky-top{
+    position:sticky;
+    top: -2px;
+    z-index: 1;
+}
+
+
+.padding-row{
+    padding: 0px 15px;
+}
+
+
+.margin-row{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+
+@import"text-bigwrapper";
+@import "header";
+@import "carousel";
+@import "services";
+@import "about";
+@import "fact";
+@import "booking";
+@import "testimonial";
+@import "owl-carousel";
+@import "footer";
+@import "media";

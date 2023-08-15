@@ -1,0 +1,96 @@
+
+footer{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9) url("../img/carousel-bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding: 50px 0px;
+    color: white;
+    padding-bottom: 10px;
+
+    .heading{
+
+        
+        h4{
+            font-size: 20px;
+            font-weight: 700;
+        
+        }
+
+        h5{
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            
+            
+        }
+
+        .social{
+           
+            .fa{
+                margin: 0px 4px;
+                border: 1px solid white;
+                border-radius: 100%;
+                padding: 10px;
+            }
+
+            .fa:hover{
+                color: #D81324;
+                background-color: white;
+            }
+            
+        }
+
+        .form-signup{
+
+            form{
+                .email{
+                    width: 100%;
+                    padding: 15px 15px;
+                    position: relative;
+                    font-size: 15px;
+                    font-weight: 600;
+                   
+                }
+
+                .signup{
+                    position: absolute;
+                    right: 7%;
+                    bottom: 3.5%;
+                    padding: 10px;
+                    color: white;
+                    background-color: #D81324;
+                    border: 0px;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+
+    #hr{
+        border-color:grey;
+        width: 100%;
+       
+    }
+
+    .para{
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+}

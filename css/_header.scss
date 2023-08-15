@@ -1,0 +1,45 @@
+
+.container-fluid>.navbar-collapse{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar>.container-fluid .navbar-brand{
+    margin-left: 30px;
+    font-size: 35px;
+    color: #D81324;
+    font-weight: 700;
+    
+}
+
+.navbar-default .navbar-nav>li>a{
+    font-weight: 600;
+    color:#4e4c58;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>.active>a{
+ 
+    background-color: #D81324;
+    color: white;
+    font-weight: 600;
+}
+
+.container-fluid > .navbar-collapse{
+    position: relative;
+    top: 10px;
+    margin-left: -15px;
+}
+
+.navbar > .container-fluid .navbar-brand{
+    position: relative;
+    top: 8px;
+    height: 70px;
+}
+
+
+
+
+.navbar-default{
+    background-color: white;
+}

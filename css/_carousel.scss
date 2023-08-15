@@ -1,0 +1,73 @@
+.carousel-inner .my-items-1{
+	background: rgba(0, 0, 0, 0.7) url("../img/carousel-bg-1.jpg");
+	height: 900px;
+	width: 100vw;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-blend-mode: darken;
+    margin-top: 12px;
+}
+.carousel-inner .my-items-2{
+    background: rgba(0, 0, 0, 0.7) url("../img/carousel-bg-2.jpg");
+	height: 900px;
+	width: 100vw;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-blend-mode: darken;
+    margin-top: 12px;
+}
+
+.margin-bottom{
+    
+    position: relative;
+    bottom: 30px;
+
+    .wrapper-text{
+        position: relative;
+        top: 300px;
+        color: white;
+
+
+        h1{
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        h4{
+            font-weight: 700;
+        }
+
+        a{
+            padding: 20px 60px;
+            background-color: #D81324;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 1s;
+            
+        }
+
+        a:hover{
+            opacity: 0.8;
+           
+        }
+
+        img{
+            width: 90%;
+        }
+
+        .img{
+            width: 90%;
+            position: relative;
+            bottom: 30px;
+        }
+
+
+    }
+}

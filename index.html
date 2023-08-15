@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML CSS Bootstrap JavaScript sass jQuery">
+    <meta name="description" content="creating website for car Repairing">
+    <meta name="author" content="SANYAL">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car Repairing</title>
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@500;600;700;800&family=Nosifer&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- our css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+    <!-- text-bigwrapper start here -->
+    <div class="text-bigwrapper" >
+        <div class="left-icons">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            &ensp;
+            <span>123 Street, New York, USA</span>
+        </div>
+
+        <div class="left-icons">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            &ensp;
+            <span>Mon - Fri : 09.00 AM - 09.00 PM</span>
+        </div>
+
+
+
+        <div class="right-icons social">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="right-icons ">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          &ensp;
+          <span>+012 345 6789</span>
+      </div>
+    </div>
+
+    <!-- header starts here -->
+    <header id="sticky-top">
+        <nav class="navbar navbar-default ">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CarServ</a>
+              </div>
+              
+            
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+                  <li><a href="#about">ABOUT</a></li>
+                  <li><a href="#services">SERVICES</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PAGES <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#booking">Booking</a></li>
+                      <li><a href="#technician">Technicians</a></li>
+                      <li><a href="#testimonial">testimonial</a></li>
+                      <li role="separator" class="divider"></li>
+                    </ul>
+                  </li>
+                  <li><a href="#contact">CONTACT</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+    </header>
+
+    <!-- Carousel and starts here -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
+
+      <div class="carousel-inner margin-bottom" role="listbox" >
+        <div class="item active my-items-1">
+          <div class="container">
+            <div class="row wrapper-text">
+              <div class="col-lg-6 col-md-6" >
+                <h4>// CAR SERVICING //</4>
+                <h1 data-aos="fade-down" data-aos-duration="700">Qualified Car Repair Service Center</h1>
+                <br>
+                <br>
+                <a href="#" data-aos="fade-down" data-aos-duration="700">LEARN MORE &ensp; <span class="glyphicon glyphicon-arrow-right"></span></a>
+              </div>
+              <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-duration="700">
+                <img src="img/carousel-1.png" alt="" class="pull-right img-responsive">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item my-items-2">
+
+          <div class="container">
+            <div class="row wrapper-text">
+              <div class="col-lg-6 col-md-6 wrapper-text-car">
+                <h4>// CAR SERVICING //</4>
+                <h1 data-aos="fade-down" data-aos-duration="700">Qualified Car Wash Service Center</h1>
+                <br>
+                <br>
+                <a href="#" data-aos="fade-down" data-aos-duration="700">LEARN MORE &ensp; <span class="glyphicon glyphicon-arrow-right"></span></a>
+              </div>
+              <div class="col-lg-6 col-md-6 text-end" data-aos="zoom-in" data-aos-duration="700">
+                <img src="img/carousel-2.png" alt="" class="pull-right img-responsive img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- services1 starts here -->
+    <div class="container" id="booking">
+      <div class="row custom-padding">
+        <div class="col-lg-4 col-md-4 col-sm-12 service-padding" data-aos="fade-up" data-aos-duration="300">
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 icons">
+              <i class="fa fa-certificate" aria-hidden="true"></i>
+            </div>
+
+            <div class="col-lg-10 col-md-10 col-sm-10  col-xs-10" >
+              <h5>Quality Servicing</h5>
+              <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 bg-color service-padding" data-aos="fade-up" data-aos-duration="500">
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 icons">
+              <i class="fa fa-cog" aria-hidden="true"></i>
+            </div>
+
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <h5>Expert Workers</h5>
+              <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 service-padding "data-aos="fade-up" data-aos-duration="700">
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 icons ">
+              <i class="fa fa-wrench"></i>
+            </div>
+
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <h5>Modern Equipment</h5>
+              <p>Diam dolor diam ipsum sit amet diam et eos erat ipsum</p>
+              <a href="">Read More</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about starts here -->
+    <div class="container" id="about">
+      <div class="row padding-bottom">
+        <div class="text">
+          <h3><span>15</span> Years
+            <br> Experience</h3>
+        </div>
+        <div class="col-lg-6 col-md-12" >
+          <img src="img/about.jpg" alt=""  class="img-responsive">
+        </div>
+
+        <div class="col-lg-6 col-md-12 about-padding">
+          <h4 id="font-size">// ABOUT US //</h4>
+          <h1><span>CarServ</span> Is The Best Place For Your Auto Care</h1>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <br>
+            <div class="row padding-row">
+              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 padding-box">
+                <p>01</p>
+              </div>
+
+              <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <h6 class="margin-top">Professional & Expert</h6>
+                <p>Diam dolor diam ipsum sit amet diam et eos</p>
+              </div>
+            </div>
+            <br>
+            <div class="row padding-row">
+              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 padding-box ">
+                <p>02</p>
+              </div>
+
+              <div class="col-lg-11 col1-md-11 col-sm-11 col-xs-11">
+                <h6 class="margin-top">Quality Servicing Center</h6>
+                <p>Diam dolor diam ipsum sit amet diam et eos</p>
+              </div>
+            </div>
+              <br>
+            <div class="row padding-row">
+              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 padding-box">
+                <p>03</p>
+              </div>
+
+              <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <h6 class="margin-top">Awards Winning Workers</h6>
+                <p>Diam dolor diam ipsum sit amet diam et eos</p>
+              </div>
+                <a href="#">READ MORE &ensp; <span class="glyphicon glyphicon-arrow-right"></span> </a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fact starts here -->
+    <div class="bigwrapper">
+      <div class="container ">
+          <div class="row stats padding-row">
+            <div class="col-lg-3 col-md-6 col-sm-6 numbring">
+              <i class="fa fa-check fa-2x text-white mb-3"></i>
+                <h2 class="stat-count">1234</h2>
+                <p>Years Experience</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 numbring">
+              <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+              <h2 class="stat-count">1250</h2>
+              <p class="text-white mb-0">Expert Technicians</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 numbring">
+              <i class="fa fa-users fa-2x text-white mb-3"></i>
+              <h2 class="stat-count">1320</h2>
+              <p class="text-white mb-0">Satisfied Clients</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 numbring">
+              <i class="fa fa-car fa-2x text-white mb-3"></i>
+              <h2 class="stat-count">1150</h2>
+              <p class="text-white mb-0">Compleate Projects</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+    
+    <!-- services2 starts here -->
+
+    <div class="container" id="services">
+      <div class="row service padding-bottom-min">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center "data-aos="fade-up" data-aos-duration="500">
+          <h4>// OUR SERVICES //</h4>
+          <h1>Explore Our Services</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row service-padding-bottom "data-aos="fade-up" data-aos-duration="700">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          
+          <div class="row bg-color-red margin-row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <i class="fa fa-snowflake-o fa-2x me-3"></i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-end">
+              <h4>Diagnostic Test</h4>
+            </div>
+          </div>
+        
+          <div class="row bg-color-grey margin-row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <i class="fa fa-car fa-2x me-3"></i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-end">
+              <h4>Engine Servicing</h4>
+            </div>
+          </div>
+      
+          <div class="row bg-color-grey margin-row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <i class="fa fa-cogs fa-2x me-3"></i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-end">
+              <h4>Tires Replacement</h4>
+            </div>
+          </div>
+    
+          <div class="row bg-color-grey margin-row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <i class="fa  fa-signal fa-2x me-3"></i>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-end">
+              <h4>Oil Changing</h4>
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 hover-img">
+          <img src="img/service-1.jpg" alt="" width="100%" class="img-responsive ">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 auto-servicing">
+          <h3>15 Years Of Experience In Auto Servicing</h3>
+          <br>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+          <br>
+            <div class="row quality-text">
+              <div class="col-lg-12">
+                <i class="fa fa-check "></i>
+                &emsp;
+                <span>Quality Servicing</span>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row quality-text">
+              <div class="col-lg-12">
+                <i class="fa fa-check "></i>
+                &emsp;
+                <span>Quality Servicing</span>
+              </div>
+            </div>
+            
+            <br>
+
+            <div class="row quality-text">
+              <div class="col-lg-12">
+                <i class="fa fa-check "></i>
+                &emsp;
+                <span>Quality Servicing</span>
+              </div>
+            </div>
+            <br>
+            <a href="#">READ MORE &ensp; <span class="glyphicon glyphicon-arrow-right"></span> </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Booking Start Here -->
+
+    <div class="bigwrapper-booking "data-aos="fade-up" data-aos-duration="700">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 certified">
+            <h1>Certified and Award Winning Car Repair Service Provider</h1>
+            <br>
+            <p text-white mb-0 >Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+          </div>
+
+          <div class="col-lg-6 col-md-6 form-validation" data-aos="zoom-in" data-aos-duration="700">
+            <form action="#">
+              <h1>Book For A Service</h1>
+              <input type="text" name="" value="" class="name"  placeholder=" Your Name" required>
+              <input type="email" name="" value="" class="name2" placeholder="Your Name" required>
+              <br>
+              <br>
+              <select name="" id="" class="name">
+                <option value="Select A Service">Select A Service</option>
+                <option value="Select A Service">Service 1</option>
+                <option value="Select A Service">Service 2</option>
+                <option value="Select A Service">Service 2</option>
+              </select>
+              <input type="date" name="" id="" class="name2" placeholder="Service Date">
+              <br>
+              <br>
+              <textarea name="" id="" class="name3">Special Request</textarea>
+              <br>
+              <br>
+              <input type="submit" name="submit" value="BOOK NOW" class="name4">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- team starts here -->
+    <div class="container" id="technician">
+      <div class="row team">
+        <div class="col-lg-12 text-center">
+          <h4>// OUR TECHNICIANS //</h4>
+          <h1>Our Expert Technicians</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial starts here -->
+    <div class="container" id="testimonial">
+      <div class="row testimonial">
+        <div class="col-lg-3 col-md-3 col-sm-6 padding-testimonial" data-aos="fade-up" data-aos-duration="300">
+          <div class="overly text-center">
+            <img src="img/team-1.jpg" alt="" class="img-responsive img-hover">
+            <div class="overly-content">
+              <i class="fa fa-facebook "></i>
+              <i class="fa fa-twitter "></i>
+              <i class="fa fa-instagram "></i>
+            </div>
+          </div>
+          <div class="testimonial-text text-center">
+            <h4>Full Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-6 padding-testimonial" data-aos="fade-up" data-aos-duration="600">
+          <div class="overly text-center">
+            <img src="img/team-2.jpg" alt="" class="img-responsive img-hover">
+            <div class="overly-content">
+              <i class="fa fa-facebook "></i>
+              <i class="fa fa-twitter "></i>
+              <i class="fa fa-instagram "></i>
+            </div>
+          </div>
+          <div class="testimonial-text text-center">
+            <h4>Full Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 padding-testimonial-2" data-aos="fade-up" data-aos-duration="900">
+          <div class="overly text-center">
+            <img src="img/team-3.jpg" alt="" class="img-responsive img-hover">
+            <div class="overly-content">
+              <i class="fa fa-facebook "></i>
+              <i class="fa fa-twitter "></i>
+              <i class="fa fa-instagram "></i>
+            </div>
+          </div>
+          <div class="testimonial-text text-center">
+            <h4>Full Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6 " data-aos="fade-up" data-aos-duration="1200">
+          <div class="overly text-center">
+            <img src="img/team-4.jpg" alt="" class="img-responsive img-hover">
+            <div class="overly-content">
+              <i class="fa fa-facebook "></i>
+              <i class="fa fa-twitter "></i>
+              <i class="fa fa-instagram "></i>
+            </div>
+          </div>
+          <div class="testimonial-text text-center">
+            <h4>Full Name</h4>
+            <p>Designation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonial end  -->
+
+    <!-- second-testimonial starts here -->
+    <div class="container" id="testimonial">
+      <div class="row second-testimonial">
+        <div class="col-lg-12 text-center">
+          <h4>// TESTIMONIAL //</h4>
+          <h1>Our Clients Say!</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- owl carousel starts here -->
+    <div class="container owl-carousel-section">
+      
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="bg-light img-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px; margin: 0 auto;">
+            <h5 class="mb-0 text-center">Client Name</h5>
+            <p class="text-center">Profession</p>
+            <div class=" tempor text-center">
+              <p >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item">
+              <img class="bg-light img-circle img-border-1 p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px; margin: 0 auto;">
+              <h5 class="mb-0 text-center">Client Name</h5>
+              <p class="text-center">Profession</p>
+              <div class=" tempor text-center">
+                <p >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item">
+              <img class="bg-light img-circle img-border-1 p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px; margin: 0 auto;">
+              <h5 class="mb-0 text-center">Client Name</h5>
+              <p class="text-center">Profession</p>
+              <div class=" tempor text-center">
+                <p >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item">
+              <img class="bg-light img-circle img-border-1 p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px; margin: 0 auto;">
+              <h5 class="mb-0 text-center">Client Name</h5>
+              <p class="text-center">Profession</p>
+              <div class=" tempor text-center">
+                <p >Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- owl carousel end -->
+    
+    <!-- footer starts here -->
+    <footer>
+      <div class="container" id="contact">
+        <div class="row heading">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+             <h4>Address</h4>
+             <p>
+              <i><a href="#" class="fa  fa-map-marker"></a></i>
+              &ensp;
+              <span>123 Street, New York, USA</span>
+             </p>
+
+             <p>
+              <i><a href="#" class="fa fa-phone"></a></i>
+              &ensp;
+              <span>+012 345 67890</span>
+             </p>
+
+             <p>
+              <i><a href="#" class="fa fa-envelope-o"></a></i>
+              &ensp;
+              <span>123 Street, New York, USA</span>
+             </p>
+
+             <div class="social">
+              <i><a href="#" class="fa fa-twitter"></a></i>
+              <i><a href="#" class="fa fa-facebook"></a></i>
+              <i><a href="#" class="fa fa-youtube-play"></a></i>
+              <i><a href="#" class="fa fa-linkedin "></a></i>
+             </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h4>Opening Hours</h4>
+            <h5>Monday - Friday:</h5>
+            <p>09.00 AM - 09.00 PM</p>
+            <br>
+            <h5>Saturday - Sunday:</h5>
+            <p>09.00 AM - 12.00 PM</p>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h4>Services</h4>
+            <p>
+              <i><a href="#" class="fa fa-angle-right"> Diagnostic Test</a></i>
+            </p>
+            <p>
+              <i><a href="#" class="fa fa-angle-right"> Engine Servicing</a></i>
+            </p>
+            <p>
+              <i><a href="#" class="fa fa-angle-right"> Tires Replacement</a></i>
+            </p>
+            <p>
+              <i><a href="#" class="fa fa-angle-right"> Oil Changing</a></i>
+            </p>
+            <p>
+              <i><a href="#" class="fa fa-angle-right"> Vacuam Cleaning</a></i>
+            </p>
+            
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 form-signup">
+            <h4>Newsletter</h4>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <br>
+            <form action="#">
+              <input type="email" name="email" placeholder="Your Email" class="email">
+              <input type="submit" name="submit" value="SIGNUP" class="signup">
+            </form>
+          </div>
+        </div>
+      </div>
+      <br>
+        <hr id="hr">
+        <p class="text-center para">&COPY; Created By SANYAL </p>
+    </footer>
+
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- owl carousel link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/owl-scricpt.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- counter link -->
+    <script src="js/script.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+   
+  </body>
+</html>
